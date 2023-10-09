@@ -1,7 +1,10 @@
-
+version: 2.1
 workflows:
   version: 2
   build:
     jobs:
       - setup:
           location: https://github.com/aditi7gupta7/gnew1.git
+      - build:
+          requires:
+            - setup
