@@ -8,11 +8,11 @@ class ElementTest {
 
     @Test
     void shouldTestAddElement() {
-        final Element firstElement = new Element(5);
+        final Element firstElement = new Element(6);
         final Element secondElement = new Element(7);
 
         final Element resultElement = firstElement.add(secondElement);
-        assertEquals(resultElement.getValue(), 12);
+        assertEquals(resultElement.getValue(), 13);
     }
 
 }
