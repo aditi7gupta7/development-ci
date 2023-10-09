@@ -9,7 +9,7 @@ public class Element {
     }
 
     public Element add(Element element) {
-        return new Element(this.value + element.value);
+        return new Element(this.value - element.value);
     }
 
     public int getValue() {
