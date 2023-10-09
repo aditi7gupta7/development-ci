@@ -1,11 +1,8 @@
 version: 2.1
 
-orbs:
-  circleci: circleci/config@1.1.0
-
 workflows:
   version: 2
   build:
     jobs:
-      - circleci/config:
+      - setup:
           location: https://github.com/aditi7gupta7/gnew1.git
